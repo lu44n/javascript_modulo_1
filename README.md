@@ -1,2 +1,3 @@
-# javascript_modulo_1
- Fundamentos do JavaScript
+# Desenvolvimento Pessoal em JavaScript
+
+ JavaScript do básico ao avançado com exercíciose projetos!
