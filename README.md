@@ -1,3 +1,3 @@
 # Desenvolvimento Pessoal em JavaScript
 
- JavaScript do básico ao avançado com exercíciose projetos!
+ Módulo 1 do curso de JavaScript, contando exercícios e projetos!
