@@ -1,15 +1,14 @@
 const nome = prompt("Insira o seu nome:")
 let nova_cidade = prompt("Você já visitou alguma cidade?")
-let nome_cidade
+let contador = 0
 let saida = ""
-let i = 0
 
 while (nova_cidade === "Sim") {
-    i++
-    nome_cidade = prompt("Insira o nome da cidade visitada: ")
+    let nome_cidade = prompt("Insira o nome da cidade visitada: ")
     saida += nome_cidade + " "
+    contador++
     
     nova_cidade = prompt("Você visitou mais alguma outra cidade?")
 }
 
-document.write("Nome do Turista: " + nome + "<br>Total de Cidades visitadas: " + i + " <br>As cidades visitadas foram: " + saida)
+document.write("Nome do turista: " + nome + "<br>Total de cidades visitadas: " + contador + " <br>As cidades visitadas foram: " + saida)
